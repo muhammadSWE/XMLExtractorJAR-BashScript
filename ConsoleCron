@@ -1,0 +1,6 @@
+#!/bin/bash
+
+JAR_FILE_PATH="/home/muhammadswe/Desktop/XMLExtractorJAR-BashScript/xmlextractor.jar"
+LOG_FILE="/home/muhammadswe/Desktop/XMLExtractorJAR-BashScript/my-spring-app.log"
+
+java -jar $JAR_FILE_PATH > $LOG_FILE 2>&1 &
